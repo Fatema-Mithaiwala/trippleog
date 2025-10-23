@@ -34,9 +34,9 @@ export default function HeroSection() {
           {/* Search Card */}
           <Card className="max-w-4xl mx-auto p-6 bg-white/95 backdrop-blur">
             <div className="grid grid-cols-1 md:grid-cols-4 gap-4 items-end">
-              <div className="space-y-2">
-                <label className="text-sm text-muted-foreground flex items-center gap-2">
-                  <MapPin className="h-4 w-4" />
+              <div className="space-y-2 text-gray-700">
+                <label className="text-sm text-muted-foreground flex items-center gap-2 ">
+                  <MapPin className="h-4 w-4 " />
                   Destination
                 </label>
                 <Select>
@@ -53,15 +53,15 @@ export default function HeroSection() {
                 </Select>
               </div>
 
-              <div className="space-y-2">
-                <label className="text-sm text-muted-foreground flex items-center gap-2">
+              <div className="space-y-2 text-gray-700">
+                <label className="text-sm flex items-center gap-2">
                   <Calendar className="h-4 w-4" />
                   Check-in
                 </label>
                 <Input type="date" />
               </div>
 
-              <div className="space-y-2">
+              <div className="space-y-2 text-gray-700">
                 <label className="text-sm text-muted-foreground flex items-center gap-2">
                   <Users className="h-4 w-4" />
                   Guests
@@ -80,7 +80,7 @@ export default function HeroSection() {
                 </Select>
               </div>
 
-              <Button size="lg" className="w-full">
+              <Button size="lg" className="w-full bg-black text-white">
                 Search Trips
               </Button>
             </div>

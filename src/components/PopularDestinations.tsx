@@ -115,7 +115,7 @@ export default function PopularDestinations() {
                       /person
                     </span>
                   </div>
-                  <Button variant="outline" size="sm">
+                  <Button variant="outline" size="sm" className="hover:bg-gray-100">
                     View Details
                   </Button>
                 </div>
